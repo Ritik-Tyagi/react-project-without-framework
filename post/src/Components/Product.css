@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+AU+SA:wght@100..400&family=Playwrite+MX+Guides&display=swap');
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 10px;
+    background-color:#FFFDEC;
+    padding: 10px;
+    
+    /* border-radius: 5px; */
+}
+.card{
+    background-color:#D9EAFD;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    /* font-family: "Playwrite AU SA", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal; */
+    align-items: center;
+}
+.addcart-button{
+    background-color:#8CABFF;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: "Playwrite AU SA", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    border: none;
+}
+.paginationButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color:#FFFDEC;
+    padding: 10px;
+    
+    /* border-radius: 5px; */
+    /* margin-left: 150px; */
+    /* margin-right: 150px; */
+}
+.button.active {
+    background-color: #4CAF50;
+    color: white;
+    border-color: #4CAF50;
+}
+.button{
+    cursor: pointer;
+}
+@media screen and (max-width:1080px){
+    .card{
+      font-size: 10px;  
+    }
+}
